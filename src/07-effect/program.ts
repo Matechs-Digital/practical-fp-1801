@@ -1,5 +1,5 @@
 import * as T from "@effect-ts/core/Effect";
-import { pipe } from "@effect-ts/core/Function";
+import { literal, pipe } from "@effect-ts/core/Function";
 import { tag } from "@effect-ts/core/Has";
 import { _A } from "@effect-ts/core/Utils";
 
@@ -11,7 +11,7 @@ export class DivisionByZero {
 
 export const makeMathService = T.effectTotal(() => {
   return {
-    _tag: "MathService" as const,
+    _tag: literal("MathService"),
     add: (x: number, y: number) => T.effectTotal(() => x + y),
     sub: (x: number, y: number) => T.effectTotal(() => x - y),
     mul: (x: number, y: number) => T.effectTotal(() => x * y),
@@ -39,7 +39,7 @@ export const provideLiveMathService = T.provideServiceM(MathService)(
 
 export const makeConsoleService = T.effectTotal(() => {
   return {
-    _tag: "ConsoleService" as const,
+    _tag: literal("ConsoleService"),
     putStrLn: (message: string) =>
       T.effectTotal(() => {
         console.log(message);
