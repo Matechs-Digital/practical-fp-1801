@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "preserveSymlinks": true,
+    "moduleResolution": "node",
+    "lib": ["es2020"],
+    "sourceMap": false,
+    "declarationMap": false,
+    "strict": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": false,
+    "noErrorTruncation": true,
+    "allowJs": false,
+    "checkJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "stripInternal": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/*"]
+    },
+    "target": "ES2018",
+    "plugins": [
+      { "transform": "@effect-ts/tracing-plugin" },
+      { "transform": "typescript-transform-paths" }
+    ]
+  },
+  "exclude": ["node_modules", "build"]
+}

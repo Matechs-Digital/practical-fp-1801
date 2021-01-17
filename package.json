@@ -1,0 +1,36 @@
+{
+  "name": "practical-fp",
+  "author": {
+    "email": "ma@matechs.com",
+    "name": "Michael Arnaldi",
+    "url": "https://www.matechs.com"
+  },
+  "private": "true",
+  "repository": "https://github.com/Matechs-Garage/practical-fp-1801",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node -r ./scripts/register.js",
+    "start": "node -r ./scripts/traced.js",
+    "build": "rimraf build && ttsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@effect-ts/core": "^0.12.12",
+    "@effect-ts/jest": "^0.6.12",
+    "@effect-ts/monocle": "^0.11.12",
+    "@effect-ts/morphic": "^0.12.12",
+    "@effect-ts/node": "^0.4.12",
+    "@effect-ts/system": "^0.10.10",
+    "@effect-ts/tracing-plugin": "^0.2.6",
+    "@effect-ts/tracing-utils": "^0.2.4",
+    "fast-check": "^2.11.0",
+    "fast-equals": "^2.0.0",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.1",
+    "ttypescript": "^1.5.12",
+    "typescript": "4.2.0-beta",
+    "typescript-transform-paths": "^2.2.2"
+  }
+}
