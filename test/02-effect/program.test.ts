@@ -7,6 +7,16 @@ import { ConsoleService } from "@app/02-effect/program";
 import * as T from "@effect-ts/core/Effect";
 import { pipe } from "@effect-ts/core/Function";
 
+const provideTestConsoleService = (messages: string[]) =>
+  T.provide<ConsoleService>({
+    Console: {
+      putStrLn: (message) =>
+        T.effectTotal(() => {
+          messages.push(message);
+        }),
+    },
+  });
+
 describe("02-effect", () => {
   // integration
   it("use live console", async () => {
@@ -24,18 +34,7 @@ describe("02-effect", () => {
   it("should print hello world", async () => {
     const messages: string[] = [];
 
-    await pipe(
-      program,
-      T.provide<ConsoleService>({
-        Console: {
-          putStrLn: (message) =>
-            T.effectTotal(() => {
-              messages.push(message);
-            }),
-        },
-      }),
-      T.runPromise
-    );
+    await pipe(program, provideTestConsoleService(messages), T.runPromise);
 
     expect(messages).toEqual(["hello world"]);
   });
