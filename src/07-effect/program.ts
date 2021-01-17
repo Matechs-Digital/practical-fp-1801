@@ -27,12 +27,6 @@ export const makeMathService = T.effectTotal(() => {
 export interface MathService extends _A<typeof makeMathService> {}
 export const MathService = tag<MathService>();
 
-export const { add, div, mul, sub } = T.deriveLifted(MathService)(
-  ["add", "div", "mul", "sub"],
-  [],
-  []
-);
-
 export const provideLiveMathService = T.provideServiceM(MathService)(
   makeMathService
 );
