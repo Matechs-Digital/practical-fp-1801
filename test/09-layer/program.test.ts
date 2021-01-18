@@ -1,9 +1,6 @@
 import { testRuntime } from "@effect-ts/jest/Runtime";
 import { LivePgPool, program } from "@app/09-layer/program";
-import {
-  provideTestConsoleService,
-  TestPgPoolConfig,
-} from "./TestPgPoolConfig";
+import { provideTestConsoleService, TestPgPoolConfig } from "./utils";
 import * as T from "@effect-ts/core/Effect";
 
 describe("Integration Suite", () => {
