@@ -10,6 +10,8 @@ export function putStrLn(message: string) {
   return T.accessM((_: ConsoleService) => _.Console.putStrLn(message));
 }
 
+export const program = putStrLn("hello world");
+
 export const provideLiveConsoleService = T.provide<ConsoleService>({
   Console: {
     putStrLn: (message) =>
@@ -18,5 +20,3 @@ export const provideLiveConsoleService = T.provide<ConsoleService>({
       }),
   },
 });
-
-export const program = putStrLn("hello world");
