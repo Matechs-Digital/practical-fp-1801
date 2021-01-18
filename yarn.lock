@@ -278,12 +278,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@effect-ts/core@^0.12.12":
-  version "0.12.12"
-  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.12.12.tgz#0b59620621f5728ed488fe75fd0885695c16793b"
-  integrity sha512-gpfMymySOvvcdDymk14f1AsReHErRezWauPyxm5azf51e91uiglaPY9I6vuZURw3jETStgdqtzkKcqENLjosuw==
+"@effect-ts/core@^0.12.12", "@effect-ts/core@^0.12.13":
+  version "0.12.13"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.12.13.tgz#5e4860fb1d4ad9992c9a18509dc2760bb462fe4b"
+  integrity sha512-ANAmcAcFzxRtI5C80T57iR0P68JG5edbfeqfUhHDMsgtjz+Wg6dy9pgp8+Bgodd4lQlPdkTG1A14jGqL2aZYQQ==
   dependencies:
-    "@effect-ts/system" "^0.10.10"
+    "@effect-ts/system" "^0.10.11"
     "@effect-ts/tracing-utils" "^0.2.4"
 
 "@effect-ts/jest@^0.6.12":
@@ -311,18 +311,25 @@
     "@effect-ts/monocle" "^0.11.12"
     "@effect-ts/tracing-utils" "^0.2.4"
 
-"@effect-ts/node@^0.4.12":
-  version "0.4.12"
-  resolved "https://registry.yarnpkg.com/@effect-ts/node/-/node-0.4.12.tgz#81219d2eb853ee86c00ee3c0c19ccbefd15a63a6"
-  integrity sha512-PHtG5Wtdv0RldQOas0+Zo6URD4gjmG7hozSC9EtqjgVWIe8Fdv8l2ADz9zCQ5S8py6rqG6JdQwkGw8V/9LNQ2w==
+"@effect-ts/node@^0.4.13":
+  version "0.4.13"
+  resolved "https://registry.yarnpkg.com/@effect-ts/node/-/node-0.4.13.tgz#5da0e73ea1f77a50aad2d94f070572456bce61f9"
+  integrity sha512-SS7o3QTVvF5JfMn5VSteh7rYJ+cbL4nkvqzv3HLW5yiyBVWXO2EoS+6QZTIvNSytrbHPUUh/WOqn7bZIq1ry2Q==
   dependencies:
-    "@effect-ts/core" "^0.12.12"
+    "@effect-ts/core" "^0.12.13"
     "@effect-ts/tracing-utils" "^0.2.4"
 
 "@effect-ts/system@^0.10.10":
   version "0.10.10"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.10.10.tgz#dc8efb6a251c31561d5d2f03955fe052c0a6f352"
   integrity sha512-06sZJME45RDktCN4T4jiuvxkyPJe/yA1yIqx127urVeAhDHQs5OicbDMsHVYOoLX+WMSlpos67rSgHp9pC6oCw==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.4"
+
+"@effect-ts/system@^0.10.11":
+  version "0.10.11"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.10.11.tgz#7d96418360b7367d99b465e797909e73784ab980"
+  integrity sha512-96VDZdsLrfcztArEFggQ5v22tVyVlR89BpSJaCLi8Ez98q15QrXrxz0cIiUdCnjesvneNJiKJWiglwmNjzg+ow==
   dependencies:
     "@effect-ts/tracing-utils" "^0.2.4"
 
