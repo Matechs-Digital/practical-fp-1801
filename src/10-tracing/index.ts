@@ -16,9 +16,7 @@ pipe(
   T.tap((n) => {
     return T.fail(`(${n})`);
   }),
-  T.catchAll(function handle(n) {
-    return T.succeed(n);
-  }),
+  T.catchAll((n) => T.succeed(n)),
   T.chain((n) => {
     return T.fail(`error: ${n}`);
   }),
