@@ -278,12 +278,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@effect-ts/core@^0.12.15":
-  version "0.12.15"
-  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.12.15.tgz#31475eb0c303bc8b8ac8f1fbe0343ed421dcbc10"
-  integrity sha512-LcPSPaOC4Qx2dryQuhYbCL+tAsuoDv3X3Q8YrfY0qN9SKRQdq9YwuWLardHF5olyHY0MOdrmMOWv68bMihf44A==
+"@effect-ts/core@^0.12.15", "@effect-ts/core@^0.12.16":
+  version "0.12.16"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.12.16.tgz#1d3be66b224a97936f0c1dc2952ee83c576735b3"
+  integrity sha512-EltQ+9/D3OjbNYWoWeuhOanWCDQpubNDzpBcnP4A5a4fj/aGtvWvVn5To7V91/7VOkE8u/vs7O91ugIOFNwtJw==
   dependencies:
-    "@effect-ts/system" "^0.10.13"
+    "@effect-ts/system" "^0.10.14"
     "@effect-ts/tracing-utils" "^0.2.4"
 
 "@effect-ts/jest@^0.6.15":
@@ -294,12 +294,12 @@
     "@effect-ts/core" "^0.12.15"
     "@effect-ts/tracing-utils" "^0.2.4"
 
-"@effect-ts/monocle@^0.11.15":
-  version "0.11.15"
-  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.11.15.tgz#0affdec51d8998440d0bcd0a2b345afa8311087b"
-  integrity sha512-llOR88dDbs4q4Bp6gZueBE7G+YPPXFlFzKigQDKDjZE2THZRzXVZ3QVzoIFyen4FGcbidrR4Dw62dI/N0Bgwkg==
+"@effect-ts/monocle@^0.11.15", "@effect-ts/monocle@^0.11.16":
+  version "0.11.16"
+  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.11.16.tgz#8bafccaa13def758a07aded0b005261d0f08f3cd"
+  integrity sha512-6nWREGXL3kHEuU4B3TIlzwUim+KQRIDuEh0E5OWeebVOQVfc/CKqxkoix/Z+nxfsPG2dTb/6SwL2xDl7rlQyqg==
   dependencies:
-    "@effect-ts/core" "^0.12.15"
+    "@effect-ts/core" "^0.12.16"
     "@effect-ts/tracing-utils" "^0.2.4"
 
 "@effect-ts/morphic@^0.12.15":
@@ -323,6 +323,13 @@
   version "0.10.13"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.10.13.tgz#241c39f1ed4ea09a6e18ec485bc5b49c42267516"
   integrity sha512-6c9o3HNGKB1ettEr25vWwvl38zsjoQW+e+1nG1JJPHmags11f/VrSdYHZ9GhWNdSYWzy1OY8mwzzcsmxCoy8FA==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.4"
+
+"@effect-ts/system@^0.10.14":
+  version "0.10.14"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.10.14.tgz#ef9343030adc57bd4ffc34dfee9a37865ac0c2d4"
+  integrity sha512-PlmLX31eq63fEGevVTmjmqTLvPjB9/YvPTp+y25rYgSMxUyHDi+ZKzZaLFxleaj+jVuwquyv1i8t0TTXhxjhuA==
   dependencies:
     "@effect-ts/tracing-utils" "^0.2.4"
 
