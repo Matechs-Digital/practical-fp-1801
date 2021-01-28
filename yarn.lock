@@ -3831,10 +3831,10 @@ typescript-transform-paths@^2.2.2:
   dependencies:
     minimatch "^3.0.4"
 
-typescript@4.2.0-beta:
-  version "4.2.0-beta"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.0-beta.tgz#75326e43625718f4a325f5725a105a1b3f1a7b45"
-  integrity sha512-0nYjpkQ6bKjHoJTQkUHcDtGLNenqc5rfTcl3ISUnJXPkGa0115FcVJABmodfMKHLyDBmzDr8IGLbDv5m7sbYgw==
+typescript@4.2.0-dev.20210127:
+  version "4.2.0-dev.20210127"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.0-dev.20210127.tgz#7e7b3a13ced8c9c9121a9f1260e14379913b3481"
+  integrity sha512-Cf4mVnydVS0TPY9k4SMZWZY9c5LT+C8mewbWS7xpTEFdzryaCYpwD2JXHOO1EAzvVGXpEBYajIPQwTV0jaWkdQ==
 
 union-value@^1.0.0:
   version "1.0.1"
