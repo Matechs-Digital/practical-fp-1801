@@ -326,6 +326,13 @@
   dependencies:
     "@effect-ts/tracing-utils" "^0.2.4"
 
+"@effect-ts/system@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.16.0.tgz#d03b6ea57d10aae857616c42933083f15f2f123b"
+  integrity sha512-jqA81tw0raduw6kr2sQBa7vYbgAbVtgGDd/PUQSAdSphlkyM6Tn1C/Dt8ecPGiBgPiOmQ9jLKK13CmZr7ZGJmg==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.4.1"
+
 "@effect-ts/tracing-plugin@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@effect-ts/tracing-plugin/-/tracing-plugin-0.2.6.tgz#d45d46f506cb2ab4209276033cc2a315b009f15b"
@@ -335,6 +342,11 @@
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.2.4.tgz#e0d70fd7b240799fa4ef534b07ac51833e7e9a6a"
   integrity sha512-nsxvWYyoBmmVLvVZB3LCtH2hyrMIH+7adwfib1KjMg8mHhc/Zbi3ftNVty1Bem80310tF/sPbR2C5rYDKYHavA==
+
+"@effect-ts/tracing-utils@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.4.1.tgz#8b308bbda1d8d00c9934fa0a8d92959df0467ad8"
+  integrity sha512-JGBGB5yVxENqIH9gZfmK7tsRANHY58mTq7sZghrwND1yFR2HrUd+2YE02p/QV8aF0dUoATEarXWc3Ay6XcgZwg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
