@@ -326,6 +326,11 @@
   dependencies:
     "@effect-ts/tracing-utils" "^0.2.4"
 
+"@effect-ts/system@^0.31.0":
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.31.0.tgz#c050b78409e9e324e682399ad2a54d25ac062844"
+  integrity sha512-layaXM3RcZ2NPj2+bBhYVM8d4PYcmjKi5yqGEhMOHvdIeTZIgVy5aaxONpoFz12E8JrHuYIceaWJCB5fFkP/gw==
+
 "@effect-ts/tracing-plugin@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@effect-ts/tracing-plugin/-/tracing-plugin-0.2.6.tgz#d45d46f506cb2ab4209276033cc2a315b009f15b"
