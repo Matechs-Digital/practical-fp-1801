@@ -33,7 +33,7 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.1.1",
     "ttypescript": "^1.5.12",
-    "typescript": "4.2.0-beta",
+    "typescript": "4.3.5",
     "typescript-transform-paths": "^2.2.2"
   }
 }
