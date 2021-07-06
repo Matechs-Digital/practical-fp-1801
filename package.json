@@ -20,7 +20,7 @@
     "@effect-ts/monocle": "^0.11.15",
     "@effect-ts/morphic": "^0.12.15",
     "@effect-ts/node": "^0.4.15",
-    "@effect-ts/system": "^0.10.13",
+    "@effect-ts/system": "^0.39.8",
     "@effect-ts/tracing-plugin": "^0.2.6",
     "@effect-ts/tracing-utils": "^0.2.4",
     "@types/pg": "^7.14.8",
